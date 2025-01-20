@@ -1,5 +1,5 @@
 {
-    "name": "tomk79/px2-serve",
+    "name": "pickles2/px2-serve",
     "description": "Pickles 2 の開発用ローカルサーバーを起動します。",
     "keywords": ["pickles2"],
     "license": "MIT",
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "tomk79\\pickles2\\px2serve\\": [
+            "pickles2\\px2serve\\": [
                 "php"
             ]
         }

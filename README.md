@@ -1,6 +1,6 @@
 # px2-serve
 
-[Pickles 2](https://pickles2.pxt.jp/) の開発用ローカルサーバーを起動します。
+[Pickles 2](https://pickles2.com/) の開発用ローカルサーバーを起動します。
 
 
 ## Usage - 使い方
@@ -8,18 +8,18 @@
 ### インストール
 
 ```
-composer require tomk79/px2-serve;
+composer require pickles2/px2-serve;
 ```
 
 ### セットアップ
 
-`px-files/config.php` に、 `tomk79\pickles2\px2serve\serve::register()` の設定を追加する。
+`px-files/config.php` に、 `pickles2\px2serve\serve::register()` の設定を追加する。
 
 ```php
 	// funcs: Before sitemap
 	$conf->funcs->before_sitemap = [
 		// px2-serve
-		tomk79\pickles2\px2serve\serve::register(),
+		pickles2\px2serve\serve::register(),
 	];
 ```
 
@@ -49,6 +49,11 @@ php path/to/.px_execute.php "/?PX=serve&S=localhost:8080";
 
 
 ## 更新履歴 - Change log
+
+### pickles2/px2-serve v1.0.0 (リリース日未定)
+
+- `tomk79/px2-serve` から `pickles2/px2-serve` へパッケージを移管した。
+- 名前空間名を `tomk79\pickles2\px2serve` から `pickles2\px2serve` に変更した。
 
 ### tomk79/px2-serve v0.1.4 (2022年5月22日)
 

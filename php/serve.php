@@ -1,5 +1,5 @@
 <?php
-namespace tomk79\pickles2\px2serve;
+namespace pickles2\px2serve;
 
 /**
  * px2-serve
