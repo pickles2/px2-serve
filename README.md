@@ -50,7 +50,7 @@ php path/to/.px_execute.php "/?PX=serve&S=localhost:8080";
 
 ## 更新履歴 - Change log
 
-### pickles2/px2-serve v1.0.0 (リリース日未定)
+### pickles2/px2-serve v1.0.0 (2025年2月12日)
 
 - `tomk79/px2-serve` から `pickles2/px2-serve` へパッケージを移管した。
 - 名前空間名を `tomk79\pickles2\px2serve` から `pickles2\px2serve` に変更した。
